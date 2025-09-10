@@ -5,7 +5,7 @@ class Perro:
 
     def ladrar(self):
         print(f"El perro {self.nombre} de raza{self.raza} esta ladrando... ¡Guauu! \n")
-    def felicidad(self):
+    def felicidadperro(self):
         print(f"{self.nombre} ya comio ")
         print(f"{self.nombre} salio al parque ")
         print(f"{self.nombre} descanso y es feliz... ")
@@ -18,7 +18,7 @@ class Gato:
     def maullar(self):
         print(f"El gato {self.nombre} de raza{self.raza} esta maullando... ¡Miaau! \n ")
 
-    def felicidad(self):
+    def felicidadgato(self):
         print(f"{self.nombre} ya comio ")
         print(f"{self.nombre} jugo con su pelota ")
         print(f"{self.nombre} descanso y es feliz... ")
@@ -35,6 +35,6 @@ nombrePerro, razaPerro = datosPerro.split(",")
 miPerro = Perro(nombrePerro, razaPerro)
 
 miGato.maullar()
-miGato.felicidad()
+miGato.felicidadgato()
 miPerro.ladrar()
-miPerro.felicidad()
+miPerro.felicidadperro()
